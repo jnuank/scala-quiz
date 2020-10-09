@@ -23,7 +23,7 @@ object Money {
 object Main {
   def main(args: Array[String]): Unit = {
     val a = Money.apply(10, Money.JPY)
-    val b = Money(20, "USD")
+    val b = Money(20, Money.JPY)
 
     val Money(_, y) = a
     println(a)
